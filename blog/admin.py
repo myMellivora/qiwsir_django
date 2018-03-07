@@ -2,7 +2,9 @@ from django.contrib import admin
 from django.utils import timezone
 from .models import BlogArticles
 
+
 class BlogArticlesAdmin(admin.ModelAdmin):
+
     list_display = ("title", "author", "publish")
     list_filter = ("publish", "author")
     search_fields = ("title", "body")

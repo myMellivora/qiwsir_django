@@ -22,3 +22,5 @@ urlpatterns = [
     url(r'^account/', include('account.urls', namespace='account', app_name='account')),
 
 ]
+
+

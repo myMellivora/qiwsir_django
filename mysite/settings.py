@@ -131,10 +131,10 @@ LOGIN_REDIRECT_URL = '/blog/'
 
 #EMAIL相关设置
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # Email开发调试用，生产环境需屏蔽
-EMAIL_HOST = 'smtp.qq.com'
-EMAIL_HOST_USER = "1079499129@qq.com"
-EMAIL_HOST_PASSWORD = "VHF6!way"
+EMAIL_HOST = 'smtp.189.cn'
+EMAIL_HOST_USER = "fjalex@189.cn"
+EMAIL_HOST_PASSWORD = "WTA%ylTWpY5o4O"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "1079499129@qq.com"
+DEFAULT_FROM_EMAIL = "fjalex@189.cn"
 
